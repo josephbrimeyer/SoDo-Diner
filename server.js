@@ -62,7 +62,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 // Define API routes here
-const routes = require("./controllers/memberController.js");
+// const routes = require("./controllers/memberController.js");
 require("./routes/html-routes.js")(app);
 require("./routes/author-api-routes.js")(app);
 require("./routes/post-api-routes.js")(app);
